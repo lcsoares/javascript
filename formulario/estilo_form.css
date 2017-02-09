@@ -1,0 +1,68 @@
+
+*{
+    font-family: "Comic Sans MS";
+}
+form{
+    width: 600px;
+    margin: 0px auto;
+    padding: 50px;
+    margin-bottom: 10px;
+
+}
+div{
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 16px;
+
+}
+label{
+    margin-right: 10px;
+    font-weight: normal;
+}
+p{
+    font-weight: normal;
+}
+.error{
+    color: red;
+}
+.panel-heading {
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria;
+    font-size: 25px;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: indianred;
+    border-bottom:2px solid #000 ;
+}
+.col-md-6 {
+    position: absolute;
+    left: 25%;
+    padding: 0px;
+    box-shadow: 0.5px 0px 10px  1px  black;
+    animation: caindo;
+    animation-duration: 4s;
+}
+
+    @keyframes caindo  {
+        0%   {opacity: 0;margin-top:1000px }
+        100% {opacity: 1;}
+    }
+.panel{
+    border: none;
+}
+.btn{
+    float: right;
+    padding: 15px 40px;
+    background-color: indianred;
+    color: white;
+    border-color:transparent ;
+    font-weight: bold;
+}
+
+
+
+
+
+
