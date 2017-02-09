@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<style>
+    form{
+        width: 400px;
+        margin: 0px auto;
+        text-align: left;
+        padding: 50px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+
+    div{
+        text-align: left;
+        padding: 10px;
+
+    }
+    label{
+        margin-right: 10px;
+    }
+    fieldset{
+        font-weight: bold;
+        box-shadow: black 2px 2px 4px ;
+        width: 30%;
+        margin: 0px auto;
+    }
+    #enviar{
+        float: right;
+        padding: 10px 30px;
+        border-radius:5px ;
+        transition: 1s;
+        background-color: #fff;
+        font-weight: bold;
+    }
+    #enviar:hover{
+       background-color: #cecece;
+        border-radius:5px ;
+        font-weight: bold;
+        transition: background-color 1s;
+
+    }
+</style>
+<body>
+
+
+
+
+        <fieldset>
+            <legend>previsão do tempo:</legend>
+            <form >
+
+        <div>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" >
+        </div>
+            <button id="enviar">Enviar</button>
+        </div>
+
+    <p id="name"></p>
+    <p id="Nuvens"></p>
+    <p id="temp"></p>
+    <p id="tempmax"></p>
+    <p id="tempmin"></p>
+    </form>
+    </fieldset>
+<script src="jquery.min.js"></script>
+<script src="previsao_do_tempo.js"></script>
+</body>
+
+</html>
